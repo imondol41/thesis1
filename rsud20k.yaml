@@ -1,0 +1,27 @@
+# RSUD20K Dataset Configuration for YOLO
+# Dataset path (relative to this YAML file)
+path: F:\skills-copilot-codespaces-vscode\thesis\rsuddataset\rsud20k
+
+# Train/Val/Test splits
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 13
+
+# Class names (13 Bangladeshi vehicle types)
+names:
+  0: person
+  1: rickshaw
+  2: rickshaw_van
+  3: auto_rickshaw
+  4: truck
+  5: pickup_truck
+  6: private_car
+  7: motorcycle
+  8: bicycle
+  9: bus
+  10: micro_bus
+  11: covered_van
+  12: human_hauler
